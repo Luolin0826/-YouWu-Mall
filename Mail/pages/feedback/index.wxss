@@ -1,0 +1,60 @@
+page {
+  background-color: #eeeeee;
+}
+.fd_main {
+  padding: 20rpx;
+  color: #666;
+}
+.fd_main .fd_tips {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fd_main .fd_tips text {
+  width: 30%;
+  padding: 10rpx;
+  text-align: center;
+  margin: 20rpx 10rpx;
+  background-color: #fff;
+}
+.fd_main .fd_content {
+  background-color: white;
+  margin-top: 20rpx;
+}
+.fd_main .fd_content textarea {
+  padding: 10rpx;
+}
+.fd_main .fd_content .fd_tool {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30rpx;
+}
+.fd_main .fd_content .fd_tool button {
+  margin: 0;
+  color: #ccc;
+  height: 90rpx;
+  width: 90rpx;
+  font-size: 60rpx;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.fd_main .fd_content .fd_tool .up_img_item {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.fd_main .form_btn_wrap {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+.fd_main .form_btn_wrap button {
+  height: auto;
+  background-color: var(--themeColor);
+  color: white;
+  text-align: center;
+  margin: 0;
+  width: 40%;
+}
